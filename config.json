@@ -1,0 +1,50 @@
+{
+  "loginURL": "http://localhost:8080/auth/login",
+  "regsiterURL": "http://localhost:8080/auth/signup",
+  "addinfo": "http://localhost:8080/user/info/add",
+  "getInfo": "http://localhost:8080/user/info/get",
+  "createNewPost": "http://localhost:8080/user/posts/new/",
+  "likePost": "http://localhost:8080/user/posts/like/",
+  "getLikesPost": "http://localhost:8080/user/posts/likes/",
+  "getAllPosts": "http://localhost:8080/user/posts/public/all",
+  "getAllPolls": "http://localhost:8080/user/polls/all",
+  "createNewComment": "http://localhost:8080/user/comments/new",
+  "deleteComment": "http://localhost:8080/user/comments/delete/",
+  "editComment": "http://localhost:8080/user/comments/update/",
+  "deletePost": "http://localhost:8080/user/posts/delete/",
+  "disableComments": "http://localhost:8080/user/posts/update/",
+  "getCommentsByPostId":"http://localhost:8080/user/comments/post/",
+
+
+  "getAllEvents": "http://localhost:8080/user/calendar/event/all",
+  "createEvent": "http://localhost:8080/user/calendar/event/new",
+  "updateEvent": "http://localhost:8080/user/calendar/event/update/",
+  "removeEvent": "http://localhost:8080/user/calendar/event/remove/",
+  "getAllReminders": "http://localhost:8080/user/reminder/all",
+  "addNewReminder": "http://localhost:8080/user/reminder/new",
+  "updateReminder": "http://localhost:8080/user/reminder/update/",
+  "doneReminder": "http://localhost:8080/user/reminder/done/",
+
+  "likeComment": "http://localhost:8080/user/comments/like/",
+
+  "createNewPoll": "http://localhost:8080/user/polls/new/",
+  "getSelfPosts": "http://localhost:8080/user/posts/self/all",
+  "editPost": "http://localhost:8080/user/posts/update/",
+
+  "getAllGroups":"http://localhost:8080/user/group/allGroups",
+  "getAllMembers":"http://localhost:8080/user/group/all/",
+  "createGroup": "http://localhost:8080/user/group/new/",
+  "getGroupPosts": "http://localhost:8080/user/group/all/",
+  "addMember": "http://localhost:8080/user/group/add/",
+  
+  "createClass": "http://localhost:8080/user/class/new/",
+
+
+  "videoCallWithLink":"http://localhost:8080/videocall/group" ,
+  "getRoomByEncryptedId":      "http://localhost:8080/videocall/room/" ,
+  "sendInvites":      "http://localhost:8080/videocall/invite/send" ,
+  "addParticipants":  "http://localhost:8080/videocall/add" ,
+  "joinVideoCall":    "http://localhost:8080/videocall/invite/accept" ,
+  "declineVideoCall":    "http://localhost:8080/videocall/invite/decline" ,
+  "leaveVideoCall":   "http://localhost:8080/videocall/leave" 
+}
